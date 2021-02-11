@@ -1,4 +1,4 @@
-from random import randint
+
 
 def bubble_sort(arr):
 	for num in range(len(arr) - 1, 0, -1):
