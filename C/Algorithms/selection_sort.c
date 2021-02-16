@@ -9,7 +9,7 @@ int main(void)
 
     selection_sort(arr, length);
 
-    for (int i = 0; i < sizeof(arr) / sizeof(arr[0]); i++)
+    for (int i = 0; i < length; i++)
     {
         printf("%i ", arr[i]);
     }
